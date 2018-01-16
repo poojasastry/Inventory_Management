@@ -1,0 +1,10 @@
+use jadrn044;
+
+drop table if exists on_hand;
+
+create table on_hand(
+	sku char(7) NOT NULL,
+	last_modified_date varchar(10) NOT NULL,
+	on_hand_quantity int NOT NULL
+);
+	

@@ -1,0 +1,10 @@
+use jadrn044;
+
+drop table if exists merchandise_in;
+
+create table merchandise_in(
+	sku char(7) NOT NULL,
+	date varchar(10) NOT NULL,
+	quantity int NOT NULL
+);
+	
